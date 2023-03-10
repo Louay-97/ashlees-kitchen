@@ -1,14 +1,26 @@
 h1{
     display: inline;
+    color: #4E6C50;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    
 }
 
 h3{
     display: inline;
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    color:grey;
 }
 
 #testimonials{
     background-color: #F2DEBA;
     text-align: center;
+    padding: 70px 0;
 }
 
 .testimonial-img{
@@ -26,6 +38,7 @@ h3{
     width: 90%;
     border-radius: 100%;
     padding-left: 50px;
+    margin-top: 100px;
 }
 
 #title{
@@ -36,6 +49,10 @@ h3{
 .navbar-container{
 
     padding: 0;
+}
+
+.navbar-button{
+    color:#4E6C50;
 }
 
 .features-row{
@@ -68,12 +85,13 @@ h3{
     margin: 0;
 }
 
-.feature-box{
-   
+.features-row{
+    padding: 8% 15%;
+    margin: auto;
 }
 
-.features-row{
-    padding: 10% 15%;
+.feature-box{
+    padding: 30px;
 }
 
 #recipes{
@@ -115,6 +133,9 @@ h3{
 
 .navbar-brand{
     color: #4E6C50;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 .nav-link{
@@ -126,13 +147,13 @@ h3{
 }
 
 .feature-image{
-    width: 350px;
+    width: 90%;
     border-radius: 100%;
     margin: 10% 0;
 }
 
 .feature-image3{
-    width: 370px;
+    width: 90%;
     border-radius: 100%;
     margin: 10% 0;
 }
